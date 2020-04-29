@@ -1,4 +1,4 @@
-##OpenClassRooms, projet 3 : "Adez MacGyver à s'échapper".##
+## OpenClassRooms, projet 3 : "Adez MacGyver à s'échapper".
 
 L'exécution du programme suppose que Python 3 et pipenv sont installés sur votre ordinateur.
 
@@ -20,7 +20,7 @@ Attention, si MacGyver rejoint le gardien avant d'avoir ramasser tous les access
 Bon jeu !
 
 
-####English version.####
+#### English version.
 
 Program execution assumes that Python 3 and pipenv are installed on your computer.
 Download and unzip the "P3_01_Programme" folder.
