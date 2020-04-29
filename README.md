@@ -2,7 +2,7 @@
 
 L'exécution du programme suppose que Python 3 et pipenv sont installés sur votre ordinateur.
 
-Téléchargez et décompressez le dossier "P3_01_Programme".
+Téléchargez et décompressez le dossier P3-master.zip.
 L'exécution du programme nécessite la bibliothèque graphique pygame.
 Si vous utilisez pipenv il faut:
 * se placer dans le dossier décompressé
@@ -11,7 +11,7 @@ Si vous utilisez pipenv il faut:
 
 Pour exécuter le jeux : `<python3 game.py>`
 
-Pour sortir du jeux : fermez la fenêtre ;) !
+Pour sortir du jeux : fermez la fenêtre !
 
 **Le jeu.**
 Déplacez MacGyver dans le labyrinth pour atteindre le gardien.
@@ -20,7 +20,7 @@ Attention, si MacGyver rejoint le gardien avant d'avoir ramasser tous les access
 Bon jeu !
 
 
-#### English version.
+*English version.*
 
 Program execution assumes that Python 3 and pipenv are installed on your computer.
 Download and unzip the "P3_01_Programme" folder.
