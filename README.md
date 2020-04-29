@@ -9,7 +9,7 @@ Si vous utilisez pipenv il faut:
 * placer la commande 'pipenv install pygame'
 * puis la commande 'pipenv shell'
 
-Pour exécuter le jeux : `<python3 game.py>`
+Pour exécuter le jeux : `python3 game.py`
 
 Pour sortir du jeux : fermez la fenêtre !
 
@@ -30,7 +30,7 @@ If you use pipenv you must:
 * place the command 'pipenv install pygame'
 * then the command 'pipenv shell'
 
-To run the game: `<python3 game.py>`
+To run the game: `python3 game.py`
 
 To quit the game : close the windows !
 
