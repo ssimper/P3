@@ -1,4 +1,4 @@
-##OpenClassRooms, projet 3 : "Adez MacGyver à s'échapper".
+##OpenClassRooms, projet 3 : "Adez MacGyver à s'échapper".##
 
 L'exécution du programme suppose que Python 3 et pipenv sont installés sur votre ordinateur.
 
@@ -10,7 +10,8 @@ Si vous utilisez pipenv il faut:
 * puis la commande 'pipenv shell'
 
 Pour exécuter le jeux : `<python3 game.py>`
-Pour sortir du jeux : fermez la fenêtre.
+
+Pour sortir du jeux : fermez la fenêtre ;) !
 
 **Le jeu.**
 Déplacez MacGyver dans le labyrinth pour atteindre le gardien.
@@ -19,7 +20,7 @@ Attention, si MacGyver rejoint le gardien avant d'avoir ramasser tous les access
 Bon jeu !
 
 
-####English version.
+####English version.####
 
 Program execution assumes that Python 3 and pipenv are installed on your computer.
 Download and unzip the "P3_01_Programme" folder.
@@ -30,7 +31,8 @@ If you use pipenv you must:
 * then the command 'pipenv shell'
 
 To run the game: `<python3 game.py>`
-To quit the game : close the windows.
+
+To quit the game : close the windows !
 
 **The game.**
 Move MacGyver through the labyrinth to reach the guardian.
