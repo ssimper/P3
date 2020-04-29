@@ -13,11 +13,9 @@ Creation of MacGyver, the information title and the score.
 
     def __init__(self):
         self.paths = set()  # set of paths
-        self.rand_pos = set()  # set of items
         self.walls = set()  # set of walls
-        self.size_x = 0  # board width
-        self.size_y = 0  # board height
-
+        self.rand_pos = set()  # set of items
+                
     def build_map(self, the_file):
         """Function that reads the file, generate a set of paths and
          a set of walls, find the size of the labyrinth, find the start
@@ -37,10 +35,7 @@ Creation of MacGyver, the information title and the score.
                     elif caracters == "F":  # the finish position
                         self.finish_pos = Position(num_col, num_lines)
                     num_col += 1
-            self.size_y = num_lines + 1
-            self.size_x = num_col
-            return self.walls, self.paths, self.size_x, self.size_y,\
-                self.start_pos, self.finish_pos
+            return self.walls, self.paths, self.start_pos, self.finish_pos
 
     def start_finish_to_path(self):
         """Put the start and the finish position in the paths set"""
@@ -49,7 +44,7 @@ Creation of MacGyver, the information title and the score.
 
     def random_position(self):
         '''Loop throught self_path, 3 times randomly pickup coords
-        and add it to self.rand_path set '''
+        and add it to self.rand_pos set '''
         self.rand_pos.clear()
         self.rand_pos = random.sample(self.paths, 3)
         return self.rand_pos

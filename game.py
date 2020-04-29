@@ -182,10 +182,10 @@ class Game:
             )
         )
         # Coordinate assignment to the accessories.
-        gel_position, ether_position, syringe_position = self.lab.rand_pos
+        tub_position, ether_position, syringe_position = self.lab.rand_pos
         # Creation of the sprites group
         self.sprites = pygame.sprite.Group(
-            AccessorySprite(self.lab, gel_position, "tub"),
+            AccessorySprite(self.lab, tub_position, "tub"),
             AccessorySprite(self.lab, ether_position, "ether"),
             AccessorySprite(self.lab, syringe_position, "syringe"),
             HeroSprite(self.hero),
